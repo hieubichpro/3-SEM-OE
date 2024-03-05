@@ -1,0 +1,149 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (32 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                          Dynamic DC of lab_6_4                           ***
+***                           23.12.2022 16:46:41                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1            -4.757   2            -8.458n  3             0.000  
+4            -5.000  
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:                D1
+Using model:         1N5711
+
+Capacitance Terms:
+CAP                  1.476p
+
+Current Terms:
+ID                  -0.640f
+
+Resistance Terms:
+REQ               13.216MEG
+
+Voltage Terms:
+VD                  -8.458n
+
+Power DC Terms:
+PD               5.413E-024
+PS                   0.000 
+
+DC Pin Currents:
+Id                  -0.640f
+
+Condition:
+State                   OFF
+
+Device Variables:
+area                 1.000 
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors PNP
+====================================================================
+Instance:                Q1
+Using model:        Q2T632B
+
+Beta Terms:
+BETADC              -1.383 
+BETAAC             183.289m
+
+Capacitance Terms:
+CPI                 25.110p
+CMU                  4.607p
+CBX                  0.000 
+CJS                  0.000 
+
+Conductance Terms:
+GM                 534.302f
+
+Current Terms:
+IB                 -13.013p
+IC                  17.999p
+
+Resistance Terms:
+RPI                343.044G
+RX                  54.300 
+RO                 917.518G
+
+Voltage Terms:
+VBE                 -8.458n
+VBC                  4.757 
+VCE                 -4.757 
+
+Frequency Terms:
+FT                   2.862m
+
+Power DC Terms:
+PD                  85.626p
+PS                   0.000 
+
+DC Pin Currents:
+Ib                  13.013p
+Ic                 -17.999p
+Ie                   4.986p
+Is                   0.000 
+
+Condition:
+State                   OFF
+
+Device Variables:
+area                 1.000 
+vbe                  0.000 
+vce                  0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                 R1             R2             R3
+V                    -8.458n        -4.757        242.626m
+Power DC Terms:
+PD                1.101E-019         2.263m       115.426u
+
+DC Pin Currents:
+Ir                  -13.012p      -475.737u       475.737u
+
+Device Variables:
+tc1                   0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000 
+
+
+
+Operating Point for Devices of Type Pulse
+=========================================
+Instance:                 V1
+Using model:           PULSE
+V                     0.000 
+Power DC Terms:
+PG                    0.000 
+
+DC Pin Currents:
+ISource             -13.013p
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                V2
+V                    5.000 
+Power DC Terms:
+PG                   2.379m
+
+DC Pin Currents:
+ISource           -475.737u
+
+

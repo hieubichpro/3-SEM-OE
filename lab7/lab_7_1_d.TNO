@@ -1,0 +1,134 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (32 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                     Transient Analysis of lab_7_1_d                      ***
+***                           23.12.2022 22:32:25                            ***
+********************************************************************************
+Limits
+======
+Maximum Run Time           3u
+Output Start Time (tstart) 0
+Maximum Time Step          1u
+Number of Points           5100
+Temperature                Linear 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          On
+Accumulate Plots           Off
+Fixed Time Step            Off
+Periodic Steady State      Off
+Ignore Expression Errors   Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3          -807.469m 
+4            -7.659   5           -15.000   6            -4.556u 
+
+
+Operating Point for Devices of Type Jfet PJF
+============================================
+Instance:               J1
+Using model:        2N3329
+
+Capacitance Terms:
+CGS                 7.915p
+CGD                 2.097p
+
+Conductance Terms:
+GM                  2.440m
+GDS               100.819u
+
+Current Terms:
+ID                 -3.670m
+
+Voltage Terms:
+VGS               807.464m
+VDS                -6.852 
+VGD                 7.659 
+
+Power DC Terms:
+PD                 25.149m
+PS                  0.000 
+
+DC Pin Currents:
+Ig                  8.934p
+Id                 -3.670m
+Is                  3.670m
+
+Condition:
+State                  SAT
+
+Device Variables:
+area                1.000 
+vds                 0.000 
+vgs                 0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:             V1.RS            R1            R2            R3            R4
+V                    0.000         0.000       807.469m        7.341         4.556u
+Power DC Terms:
+PD                   0.000         0.000         2.964m       26.942m        0.041f
+
+DC Pin Currents:
+Ir                   0.000         0.000         3.670m        3.670m        8.934p
+
+Device Variables:
+tc1                  0.000         0.000         0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1            C2
+V                   -4.556u      807.469m
+Power DC Terms:
+PS                   0.000         0.000 
+
+DC Pin Currents:
+Ic                   0.000         0.000 
+
+Device Variables:
+ic                   0.000         0.000 
+
+
+
+Operating Point for Devices of Type Sine Source
+===============================================
+Instance:                V1
+Using model:           1KHZ
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource              0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V2
+V                  15.000 
+Power DC Terms:
+PG                 55.055m
+
+DC Pin Currents:
+ISource            -3.670m
+
+

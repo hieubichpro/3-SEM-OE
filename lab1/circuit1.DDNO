@@ -1,0 +1,80 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (32 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                          Dynamic DC of circuit1                          ***
+***                            08.12.2022 0:39:17                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             0.000   2         3.512E-029 
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:           D2C536B
+Using model:        D2C536B
+
+Capacitance Terms:
+CAP                220.000p
+
+Current Terms:
+ID               6.669E-040
+
+Resistance Terms:
+REQ               25.378MEG
+
+Voltage Terms:
+VD               3.512E-029
+
+Power DC Terms:
+PD               2.224E-067
+PS                   0.000 
+
+DC Pin Currents:
+Id               6.669E-040
+
+Condition:
+State                   OFF
+
+Device Variables:
+area                 1.000 
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                 R1             R2
+V                -3.512E-029     3.512E-029
+Power DC Terms:
+PD                1.233E-057     2.466E-061
+
+DC Pin Currents:
+Ir               -3.512E-029     7.023E-033
+
+Device Variables:
+tc1                   0.000          0.000 
+tc2                   0.000          0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                V1
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource          3.512E-029
+
+
